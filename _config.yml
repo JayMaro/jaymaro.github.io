@@ -102,7 +102,7 @@ avatar: "./JayMaro.png"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
-social_preview_image: # string, local or CORS resources
+social_preview_image: "./JayMaro.png" # string, local or CORS resources
 
 # boolean type, the global switch for TOC in posts.
 toc: true
@@ -119,13 +119,13 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: # <gh-username>/<repo>
-    repo_id:
-    category:
-    category_id:
-    mapping: # optional, default to 'pathname'
+    repo: "JayMaro/jaymaro.github.io-giscus" # <gh-username>/<repo>
+    repo_id: "R_kgDONdXf1Q"
+    category: "Announcements"
+    category_id: "DIC_kwDONdXf1c4ClNdq"
+    mapping: "pathname" # optional, default to 'pathname'
     strict: # optional, default to '0'
-    input_position: # optional, default to 'bottom'
+    input_position: "top" # optional, default to 'bottom'
     lang: # optional, default to the value of `site.lang`
     reactions_enabled: # optional, default to the value of `1`
 
