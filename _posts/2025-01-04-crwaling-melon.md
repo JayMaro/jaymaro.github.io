@@ -1,11 +1,11 @@
 ---
-title: BeautifulSoup4 음원 차트 크롤링 - 멜론
+title: BeautifulSoup4 음원 차트 크롤링 2025 - 멜론
 categories: [crawling, python]
 tags: python     # TAG names should always be lowercase
 ---
 
 # 멜론 크롤링
-## 가상환경
+## 실습
 앞에서 환경 설정과 테스트를 마쳤으면 melon 크롤링은 아주 쉽다.
 
 아래의 사진처럼 개발자 도구를 통해 원하는 데이터의 태그와 클래스 id 등을 파악한다.
